@@ -5,7 +5,7 @@ import os
 # Добавляем корень проекта в путь
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from calculator import Calculator
+   from src.calculator import Calculator
 
 class TestCalculator:
     def setup_method(self):
