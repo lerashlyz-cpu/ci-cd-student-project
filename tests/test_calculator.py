@@ -1,10 +1,10 @@
-import pytest
-import sys
 import os
+import sys
+import pytest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 from src.calculator import Calculator
+
 
 class TestCalculator:
     def setup_method(self):
